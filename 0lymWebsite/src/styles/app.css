@@ -1,0 +1,12 @@
+body {
+  font-family: "Inter", "Montserrat", "Roboto", sans-serif;
+  background-color: var(--backgroundColor);
+  color: var(--plainColor);
+}
+.linksHover:hover,
+.linksHover:focus {
+  color: var(--secondaryAccent);
+  text-decoration: underline;
+  border: 1px var(--secondaryAccent) solid;
+  border-radius: 15px;
+}
