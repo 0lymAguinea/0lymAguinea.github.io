@@ -1,0 +1,28 @@
+:root {
+  --backgroundColor: #131c23;
+  --primaryColor: #28c5d2;
+  --secondaryColor: #70969f;
+  --primaryAccent: #6f88b3;
+  --secondaryAccent: #00b88d;
+  --plainColor: #f1f5f4;
+}
+body {
+  background-color: var(--backgroundColor);
+  color: var(--plainColor);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.primaryColor {
+  color: var(--primaryColor);
+}
+.secondaryColor {
+  color: var(--secondaryColor);
+}
+.primaryAccent {
+  color: var(--primaryAccent);
+}
+.secondaryAccent {
+  color: var(--secondaryAccent);
+}
+.plainColor {
+  color: var(--plainColor);
+}
