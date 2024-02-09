@@ -1,0 +1,9 @@
+.techStackHeader {
+  color: var(--secondaryAccent);
+}
+.techStackImg {
+  max-height: 5rem;
+}
+.gitHub {
+  background-color: var(--primaryAccent);
+}
