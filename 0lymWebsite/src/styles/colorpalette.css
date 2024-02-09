@@ -4,6 +4,7 @@
   --secondaryColor: #8eaeb4;
   --primaryAccent: #97a9c8;
   --secondaryAccent: #00b88d;
+  --negativeBackground: #253146;
   --plainColor: #f1f5f4;
 }
 .primaryColor {
@@ -17,6 +18,9 @@
 }
 .secondaryAccent {
   color: var(--secondaryAccent);
+}
+.negativeBackground {
+  color: var(--negativeBackground);
 }
 .plainColor {
   color: var(--plainColor);
