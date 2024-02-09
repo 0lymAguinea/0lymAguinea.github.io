@@ -1,0 +1,17 @@
+.projectHeader {
+  color: var(--primaryColor);
+}
+.githubIcon {
+  height: 2rem;
+}
+.projectTitle {
+  color: var(--secondaryAccent);
+}
+.card {
+  background-color: var(--negativeBackground);
+  color: var(--plainColor);
+  border-radius: 10px;
+}
+.card-body {
+  border-radius: 10px;
+}
