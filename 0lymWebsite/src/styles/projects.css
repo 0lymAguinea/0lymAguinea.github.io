@@ -15,3 +15,15 @@
 .card-body {
   border-radius: 10px;
 }
+.githubLink,
+.githubLink:link,
+.githubLink:visited,
+.githubLink:hover,
+.githubLink:active {
+  color: var(--primaryColor);
+  text-decoration: none;
+}
+.githubLink:hover,
+.githubLink:focus {
+  text-decoration: underline;
+}

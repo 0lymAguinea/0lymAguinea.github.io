@@ -8,9 +8,16 @@ import "../styles/projects.css";
 function VanillaJSProjects() {
   return (
     <>
-      <h3 className="fs-3">Vanilla JS</h3>
+      <h3 className="fs-3">
+        Vanilla JS{" "}
+        <a
+          href="https://github.com/0lymAguinea/javascript-foundation"
+          className="fs-4 githubLink"
+        >
+          GitHub repository
+        </a>
+      </h3>
       <Card className="mb-4">
-        <Card.Img />
         <Card.Body>
           <Card.Title className="projectTitle fs-2">TO-DO App</Card.Title>
           <Card.Text>(Basic design. Main focus is on functionality.)</Card.Text>
@@ -35,6 +42,8 @@ function VanillaJSProjects() {
                       <img
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
                         className="githubIcon "
+                        aria-disabled
+                        alt=""
                       />
                     </Col>
                     <Col>Source code</Col>
@@ -46,7 +55,6 @@ function VanillaJSProjects() {
         </Card.Body>
       </Card>
       <Card className="mb-4">
-        <Card.Img />
         <Card.Body>
           <Card.Title className="projectTitle fs-2">Battleship</Card.Title>
           <Card.Text>(Basic design. Main focus is on functionality.)</Card.Text>
@@ -70,6 +78,8 @@ function VanillaJSProjects() {
                       <img
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
                         className="githubIcon "
+                        aria-disabled
+                        alt=""
                       />
                     </Col>
                     <Col>Source code</Col>
@@ -81,7 +91,6 @@ function VanillaJSProjects() {
         </Card.Body>
       </Card>
       <Card className="mb-4">
-        <Card.Img />
         <Card.Body>
           <Card.Title className="projectTitle fs-2">Tic Tac Toe</Card.Title>
           <Card.Text>(Basic design. Main focus is on functionality.)</Card.Text>
@@ -105,6 +114,8 @@ function VanillaJSProjects() {
                       <img
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
                         className="githubIcon "
+                        aria-disabled
+                        alt=""
                       />
                     </Col>
                     <Col>Source code</Col>
@@ -116,7 +127,6 @@ function VanillaJSProjects() {
         </Card.Body>
       </Card>
       <Card className="mb-4">
-        <Card.Img />
         <Card.Body>
           <Card.Title className="projectTitle fs-2">Calculator</Card.Title>
           <Card.Text>A basic calculator</Card.Text>
@@ -135,6 +145,8 @@ function VanillaJSProjects() {
                       <img
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
                         className="githubIcon "
+                        aria-disabled
+                        alt=""
                       />
                     </Col>
                     <Col>Source code</Col>
@@ -152,9 +164,16 @@ function VanillaJSProjects() {
 function ReactProjects() {
   return (
     <>
-      <h3 className="fs-3">React projects</h3>
+      <h3 className="fs-3">
+        React{" "}
+        <a
+          href="https://github.com/0lymAguinea/react-foundation"
+          className="fs-4 githubLink"
+        >
+          GitHub repository
+        </a>{" "}
+      </h3>
       <Card>
-        <Card.Img />
         <Card.Body>
           <Card.Title className="projectTitle fs-2">CV Maker</Card.Title>
           <Card.Text>
@@ -177,6 +196,8 @@ function ReactProjects() {
                       <img
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
                         className="githubIcon "
+                        aria-disabled
+                        alt=""
                       />
                     </Col>
                     <Col>Source code</Col>
@@ -195,9 +216,16 @@ function Projects() {
   return (
     <section>
       <Row>
-        <h2 className="text-center fs-1 my-5  projectHeader">
+        <h2 className="text-center fs-1 mt-5 mb-4  projectHeader">
           Personal Projects
         </h2>
+        <a
+          href="https://github.com/0lymAguinea"
+          className="githubLink fs-3 text-center mb-4"
+          alt=""
+        >
+          Visit main GitHub
+        </a>
         <Col md={6}>
           <ReactProjects />
         </Col>
