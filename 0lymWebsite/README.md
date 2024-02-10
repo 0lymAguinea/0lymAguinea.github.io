@@ -1,3 +1,5 @@
+This is my personal portfolio repository
+
 # 💫 About Me:
 
 I am currently self-studying to become a front-end web developer.
