@@ -5,6 +5,7 @@ import AboutMe from "./component/AboutMe";
 import TechStack from "./component/TechStack";
 import Projects from "./component/Projects";
 import Contact from "./component/Contact";
+import Education from "./component/Education";
 import "./styles/colorpalette.css";
 import "./styles/app.css";
 
@@ -17,6 +18,7 @@ function App() {
         <TechStack />
         <Projects />
         <Contact />
+        <Education />
       </Container>
     </>
   );
