@@ -13,6 +13,8 @@ function VanillaJSProjects() {
         <a
           href="https://github.com/0lymAguinea/javascript-foundation"
           className="fs-4 githubLink"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           GitHub repository
         </a>
@@ -29,13 +31,21 @@ function VanillaJSProjects() {
           <Card.Text>Used localStorage</Card.Text>
           <Row className="text-center">
             <Col md={6} className="my-auto">
-              <a href="#">
+              <a
+                href="https://todolist-7kf.pages.dev/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button className="mb-2">Live preview</Button>
               </a>
             </Col>
             <Col md={6}>
-              <a href="#">
-                <Button>
+              <a
+                href="https://github.com/0lymAguinea/javascript-foundation/tree/main/src/projects/todoList/src"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button aria-label="View source code for todo app">
                   {" "}
                   <Row>
                     <Col className="my-auto">
@@ -62,16 +72,24 @@ function VanillaJSProjects() {
             A classic board game comes into browser. You can play with your
             friends 1v1.
           </Card.Text>
-          <Card.Text>Online is not available</Card.Text>
+          <Card.Text>Online playing is not available</Card.Text>
           <Row className="text-center">
             <Col md={6} className="my-auto">
-              <a href="#">
+              <a
+                href="https://battlesihp.pages.dev/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button className="mb-2">Live preview</Button>
               </a>
             </Col>
             <Col md={6}>
-              <a href="#">
-                <Button>
+              <a
+                href="https://github.com/0lymAguinea/javascript-foundation/tree/main/src/projects/battleship/src"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button aria-label="View source code for battleship">
                   {" "}
                   <Row>
                     <Col className="my-auto">
@@ -101,13 +119,21 @@ function VanillaJSProjects() {
           <Card.Text>Online is not available</Card.Text>
           <Row className="text-center">
             <Col md={6} className="my-auto">
-              <a href="#">
+              <a
+                href="https://tictactoe-7yz.pages.dev/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button className="mb-2">Live preview</Button>
               </a>
             </Col>
             <Col md={6}>
-              <a href="#">
-                <Button>
+              <a
+                href="https://github.com/0lymAguinea/javascript-foundation/tree/main/src/projects/ticTacToe"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button aria-label="View source code for tic tac toe">
                   {" "}
                   <Row>
                     <Col className="my-auto">
@@ -132,13 +158,21 @@ function VanillaJSProjects() {
           <Card.Text>A basic calculator</Card.Text>
           <Row className="text-center">
             <Col md={6} className="my-auto">
-              <a href="#">
+              <a
+                href="https://calculator-b8i.pages.dev/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button className="mb-2">Live preview</Button>
               </a>
             </Col>
             <Col md={6}>
-              <a href="#">
-                <Button>
+              <a
+                href="https://github.com/0lymAguinea/javascript-foundation/tree/main/src/projects/calculator"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button aria-label="View source code for calculator">
                   {" "}
                   <Row>
                     <Col className="my-auto">
@@ -169,6 +203,8 @@ function ReactProjects() {
         <a
           href="https://github.com/0lymAguinea/react-foundation"
           className="fs-4 githubLink"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           GitHub repository
         </a>{" "}
@@ -183,13 +219,21 @@ function ReactProjects() {
           <Card.Text>Used reactToPrint library for printing to PDF</Card.Text>
           <Row className="text-center">
             <Col md={6} className="my-auto">
-              <a href="#">
+              <a
+                href="https://cvmaker.pages.dev/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button className="mb-2">Live preview</Button>
               </a>
             </Col>
             <Col md={6}>
-              <a href="#">
-                <Button>
+              <a
+                href="https://github.com/0lymAguinea/react-foundation/tree/main/CVApplication"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button aria-label="View source code for cv maker">
                   {" "}
                   <Row>
                     <Col className="my-auto">
@@ -222,7 +266,8 @@ function Projects() {
         <a
           href="https://github.com/0lymAguinea"
           className="githubLink fs-3 text-center mb-4"
-          alt=""
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Visit main GitHub
         </a>
