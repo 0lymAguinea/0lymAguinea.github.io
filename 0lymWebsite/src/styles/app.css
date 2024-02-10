@@ -5,8 +5,8 @@ body {
 }
 .linksHover:hover,
 .linksHover:focus {
-  color: var(--secondaryAccent);
+  color: var(--primaryColor);
   text-decoration: underline;
-  border: 1px var(--secondaryAccent) solid;
+  border: 1px var(--primaryColor) solid;
   border-radius: 15px;
 }
