@@ -5,7 +5,7 @@ function PersonalInfo() {
   return (
     <>
       <p className="fs-2">
-        Hi. I'm <span className="name fs-2 fw-semibold">Olym M. Aguinea</span>{" "}
+        Hi. I'm <span className="name fs-1 fw-semibold">Olym M. Aguinea</span>{" "}
       </p>
       <p className="fs-2">
         I am currently self-studying to become{" "}
