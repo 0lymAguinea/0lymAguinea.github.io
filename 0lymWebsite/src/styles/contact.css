@@ -1,3 +1,11 @@
 .contactHeader {
   color: var(--primaryColor);
 }
+label {
+  color: var(--secondaryAccent);
+}
+label::after {
+  content: "*";
+  color: red;
+  margin-left: 5px;
+}

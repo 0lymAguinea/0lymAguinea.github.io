@@ -2,10 +2,21 @@ import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
 import emailjs from "@emailjs/browser";
 import Form from "react-bootstrap/Form";
-import { useRef } from "react";
+import Alert from "react-bootstrap/Alert";
+import { useRef, useState } from "react";
 import "../styles/contact.css";
 
+function AlertMessage({ variant, heading, message }) {
+  return (
+    <Alert variant={variant}>
+      <Alert.Heading>{heading}</Alert.Heading>
+      <p>{message}</p>
+    </Alert>
+  );
+}
+
 function ContactForm() {
+  const [alert, setAlert] = useState(null);
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -17,38 +28,61 @@ function ContactForm() {
       })
       .then(
         () => {
-          console.log("SUCCESS!");
+          setAlert(
+            <AlertMessage
+              variant="success"
+              heading="Email sent successfully."
+              message="Thank you for emailing me. I will reply to you as soon as possible."
+            />
+          );
         },
         (error) => {
-          console.log("FAILED...", error.text);
+          setAlert(
+            <AlertMessage
+              variant="danger"
+              heading="Email sent unsuccessful."
+              message="Please try again."
+            />
+          );
+          console.error(error);
         }
       );
   };
 
   return (
     <Form ref={form} onSubmit={sendEmail}>
+      {alert}
       <Form.Group controlId="from_name">
-        <Form.Label>Name</Form.Label>
-        <Form.Control type="text" placeholder="Enter name." name="from_name" />
+        <Form.Label className="fs-4">Name</Form.Label>
+        <Form.Control
+          type="text"
+          placeholder="Enter name."
+          name="from_name"
+          required
+        />
       </Form.Group>
       <Form.Group controlId="from_email">
-        <Form.Label>Email address</Form.Label>
+        <Form.Label className="fs-4">Email address</Form.Label>
         <Form.Control
           type="email"
           placeholder="Enter email."
           name="from_email"
+          required
         />
       </Form.Group>
       <Form.Group controlId="message">
-        <Form.Label>Message</Form.Label>
+        <Form.Label className="fs-4">Message</Form.Label>
         <Form.Control
           as="textarea"
           rows={3}
           placeholder="Enter message."
           name="message"
+          required
         ></Form.Control>
       </Form.Group>
-      <Button type="submit">Send email</Button>
+      <Button type="submit" className="mt-3">
+        Send email
+      </Button>
     </Form>
   );
 }
