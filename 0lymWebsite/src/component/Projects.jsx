@@ -209,7 +209,7 @@ function ReactProjects() {
           GitHub repository
         </a>{" "}
       </h3>
-      <Card>
+      <Card className="mb-4">
         <Card.Body>
           <Card.Title className="projectTitle fs-2">CV Maker</Card.Title>
           <Card.Text>
@@ -234,6 +234,51 @@ function ReactProjects() {
                 rel="noopener noreferrer"
               >
                 <Button aria-label="View source code for cv maker">
+                  {" "}
+                  <Row>
+                    <Col className="my-auto">
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                        className="githubIcon "
+                        aria-disabled
+                        alt=""
+                      />
+                    </Col>
+                    <Col>Source code</Col>
+                  </Row>
+                </Button>
+              </a>
+            </Col>
+          </Row>
+        </Card.Body>
+      </Card>
+      <Card>
+        <Card.Body>
+          <Card.Title className="projectTitle fs-2">
+            Memory Card Game
+          </Card.Title>
+          <Card.Text>
+            A game where you click the pokemons to earn points while avoiding to
+            click previous pokemons.
+          </Card.Text>
+          <Card.Text>Used pokeAPI to fetch pokemon names and images.</Card.Text>
+          <Row className="text-center">
+            <Col md={6} className="my-auto">
+              <a
+                href="https://memorycardgame.pages.dev/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button className="mb-2">Live preview</Button>
+              </a>
+            </Col>
+            <Col md={6}>
+              <a
+                href="https://github.com/0lymAguinea/react-foundation/tree/main/memoryCard"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button aria-label="View source code for memory card game">
                   {" "}
                   <Row>
                     <Col className="my-auto">
