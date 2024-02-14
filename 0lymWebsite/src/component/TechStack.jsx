@@ -86,6 +86,11 @@ function ProgrammingFrameworksAndLibraries() {
             className="techStackImg mx-2"
             alt="Bootstrap"
           />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg"
+            className="techStackImg mx-2"
+            alt="SASS"
+          />
         </Figure>
       </Row>
     </>
