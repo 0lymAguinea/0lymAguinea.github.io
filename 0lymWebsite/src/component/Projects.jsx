@@ -211,6 +211,50 @@ function ReactProjects() {
       </h3>
       <Card className="mb-4">
         <Card.Body>
+          <Card.Title className="projectTitle fs-2">Shopping Cart</Card.Title>
+          <Card.Text>
+            Developed a fake store web app uitilizing React and React Bootstrap,
+            integrated the FakeStoreAPI to fetch product data, providing users
+            with a simulated shopping experience
+          </Card.Text>
+          <Card.Text>Used FakeStoreAPI to provide product data.</Card.Text>
+          <Row className="text-center">
+            <Col md={6} className="my-auto">
+              <a
+                href="https://shoppingcart-5bz.pages.dev/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button className="mb-2">Live preview</Button>
+              </a>
+            </Col>
+            <Col md={6}>
+              <a
+                href="https://github.com/0lymAguinea/react-foundation/tree/main/shoppingcart"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button aria-label="View source code for shopping cart">
+                  {" "}
+                  <Row>
+                    <Col className="my-auto">
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                        className="githubIcon "
+                        aria-disabled
+                        alt=""
+                      />
+                    </Col>
+                    <Col>Source code</Col>
+                  </Row>
+                </Button>
+              </a>
+            </Col>
+          </Row>
+        </Card.Body>
+      </Card>
+      <Card className="mb-4">
+        <Card.Body>
           <Card.Title className="projectTitle fs-2">CV Maker</Card.Title>
           <Card.Text>
             An application that shows a real-time preview of your resume. It can
