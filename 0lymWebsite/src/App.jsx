@@ -4,9 +4,7 @@ import Header from "./component/Header";
 import AboutMe from "./component/AboutMe";
 import TechStack from "./component/TechStack";
 import Projects from "./component/Projects";
-import Contact from "./component/Contact";
-import Education from "./component/Education";
-import "./styles/colorpalette.css";
+import Career from "./component/Career";
 import "./styles/app.css";
 
 function App() {
