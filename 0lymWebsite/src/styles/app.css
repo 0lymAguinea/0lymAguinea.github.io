@@ -2,8 +2,8 @@
 
 @theme {
   /* Fonts */
-  --font-sans: "Plus Jakarta Sans", sans-serif;
-  --font-mono: "JetBrains Mono", monospace;
+  --font-sans: "Plus Jakarta Sans", "Trebuchet MS", sans-serif;
+  --font-mono: "JetBrains Mono", "Courier New", monospace;
 
   /* Brand colors */
   --color-brand-dark: #080c14;
