@@ -1,18 +1,36 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #02d5c7;
-  --color-secondary: #8eaeb4;
-  --color-accent-primary: #97a9c8;
-  --color-accent-seconday: #00b88d;
-  --color-dark: #131c23;
-  --color-dark-negative: #253146;
-  --color-plain: #f1f5f4;
-  --color-success: #2bde34;
+  /* Fonts */
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
 
-  --font-inter: "Inter", sans-serif;
-  --font-roboto: "Roboto", sans-serif;
+  /* Brand colors */
+  --color-brand-dark: #080c14;
+  --color-brand-surface: #0d1322;
+  --color-brand-card: #11192e;
+  --color-brand-border: #1e293b;
+  --color-brand-accent: #00f5d4;
+  --color-brand-sky: #38bdf8;
+  --color-brand-emerald: #10b981;
+  --color-brand-muted: #94a3b8;
+
+  /* Background images */
+  --background-image-glow-radial: radial-gradient(
+    circle,
+    rgba(0, 245, 212, 0.12) 0%,
+    rgba(56, 189, 248, 0.04) 40%,
+    rgba(8, 12, 20, 0) 70%
+  );
+
+  --background-image-grid-pattern: radial-gradient(
+    rgba(255, 255, 255, 0.07) 1px,
+    transparent 1px
+  );
 }
+
+/* Dark mode using class strategy */
+@custom-variant dark (&:where(.dark, .dark *));
 
 html {
   min-width: 320px;
@@ -21,4 +39,15 @@ html {
 
 body {
   font-family: "Inter", sans-serif;
+}
+
+.bg-grid {
+  background-size: 28px 28px;
+}
+.neon-border-glow:hover {
+  box-shadow: 0 0 25px -4px rgba(0, 245, 212, 0.25);
+}
+.glass-nav {
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
 }
