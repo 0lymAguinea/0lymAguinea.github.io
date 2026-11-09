@@ -5,12 +5,12 @@ const careerHistories = [
       "Stealth Solutions and Digital Marketing Inc. <span class='text-brand-accent'>/</span> Live Life Stronger Inc.",
     year: "March 2024 - Nov 2026",
     contributions: [
-      "Developed and deployed three pharmaceutical e-commerce websites utilizingVue.js,Nuxt.js,TypeScript, andTailwind CSS, seamlessly integrating secure REST APIs to communicate with backend services.",
+      "Developed and deployed three pharmaceutical e-commerce websites utilizing Vue.js, Nuxt.js,TypeScript, and Tailwind CSS, seamlessly integrating secure REST APIs to communicate with backend services.",
       "Implemented mission-critical e-commerce features including interactive multi-step checkout orders, dynamic clinical health questionnaire forms, ID verification flows, order confirmation portals, and member dashboard pages.",
       "Architected modular component-driven design systems, providing reusable UI component kits with strict form validation schemas and resilient error handling patterns.",
       "Optimized web vitals for performance, accessibility (a11y), cross-device responsiveness, and organic SEO ranking using SSR/SSG rendering mechanisms and semantic markup.",
       "Translated complex Figma design systems into pixel-accurate, smooth, production-ready frontend interfaces with zero visual regressions.",
-      "Developed and maintained additional e-commerce web applications powered by theTALL stack (Tailwind CSS, Alpine.js, Laravel, Livewire), driving end-to-end user experience and UI implementations.",
+      "Developed and maintained additional e-commerce web applications powered by the TALL stack (Tailwind CSS, Alpine.js, Laravel, Livewire), driving end-to-end user experience and UI implementations.",
     ],
     coreTechs: [
       {
